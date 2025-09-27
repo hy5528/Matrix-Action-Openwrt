@@ -35,11 +35,11 @@ on:
         - 'onecloud'
       SETIP:
         description: 'Set ip address'
-        default: '192.168.66.1'
+        default: '192.168.2.168'
         required: false
         type: choice
         options:
-        - '192.168.66.1'
+        - '192.168.2.168'
         - '192.168.8.1'
         - '192.168.88.1'
         - '192.168.10.1'
